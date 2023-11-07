@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="left">
+        <div class="frontpage">
+            <!-- <img class="longimg" src="./images/bg-card-front.png" alt="" /> -->
+            <div class="logo">
+                <img class="logo" src="./images/card-logo.svg" alt="" />
+              </div>
+              <div class="user-info">
+                <p class="card-number">0000 0000 0000 0000</p>
+              <div class="name-date">
+                <p class="card-name">Dora</p>
+                <p class="card-date">00/00</p>
+              </div>
+              </div>
+             
+        </div>
+
+        <div class="backpage">
+          <img class="card-back" src="./images/bg-card-back.png" alt="" />
+        </div>
+      </div>
+
+      <div class="right">
+        <form action="">
+          <label class="block">CardHolder Name</label>
+          <input type="text" class="block card-name-input" id="" placeholder="e.g Janita Applesed" />
+          <label class="block">CardNumber</label>
+          <input type="number" class="block card-num-input" id="" placeholder="e.g 12345678" />
+          <div class="date-cvc">
+            <div class="date">
+              <label class="block">Exp.Date(MM/YY)</label>
+              <input class="month" type="number" placeholder="MM" max="31" min="1"/>
+              <input  class="year" type="number" placeholder="YY"  max="99" min="10"/>
+            </div>
+            <div class="cvc">
+              <label class="block">cvc</label>
+              <input type="number" placeholder="e.g 123" min="100" max="999" />
+            </div>
+          </div>
+          <button class="btn">Confirm</button>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

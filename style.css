@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Container
+{
+    display: flex;
+   width: 100vw; 
+   height: 100vh;
+}
+.right
+{
+    width: 60VW;
+    background-color:white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    /* flex-direction: column; */
+}
+.block
+{
+    display: block;
+    margin-bottom: 20px;
+}
+.date-cvc 
+{
+    display: flex;
+    justify-content: space-between;
+  
+}
+/* .cvc{
+   margin-right: ; 
+} */
+
+.left
+{
+    background: url(/images/bg-main-desktop.png);
+}
+.frontpage
+{
+    background:url(./images/bg-card-front.png);
+    background-size: fit;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    position: relative;
+    left: 100px;
+   margin-bottom: 8%;
+   top: 50px;
+   padding: 5%;
+}
+.backpage
+{
+position: relative;
+top: 50px;
+left: 220px;
+}
+
+.btn
+{
+    margin-top: 5%;
+}
+.card-number, .card-name, .card-date
+{
+    color: white;
+}
+.user-info
+{
+display: flex;
+flex-direction: column;
+position: relative;
+bottom: -100px;
+}
+.name-date
+{
+    display:flex;
+    justify-content: space-between;
+}
+.btn
+{
+    border-radius: 5px;
+    color: #fff;
+background-color: black;
+width: 100%;
+padding: 4%;
+border: none;
+}
+
+input{
+    width: 100%;
+    padding: 3%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+form
+{
+    width: 50%;
+
+}
+.month, .year
+{
+    width: 35%;
+}
+
+.cvc {
+    width: 55%;
+}
+label
+{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container
+{
+    display: flex;
+   width: 100vw; 
+   height: 100vh;
+}
+
+.left
+{
+    background: url(/images/bg-main-desktop.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40VW;
+    height: 100%;
+}
+.right
+{
+    width: 60VW;
+    background-color:white;
+    height: 100%;
+}
+.longimg
+{
+   margin-left: 40%;
+   margin-top: 10%;
+   position: absolute;
+   
+}
+
+.card-back
+{
+    margin-top: 70%;
+    margin-left: 35%;
+    position: absolute;
+    z-index: 8888;
+}
+
+.logo
+{
+    margin-top: 16%;
+    padding-left: 40%;
+    position: absolute;
+    
+}
+
+@media (min-width: 1440px)
+{
+    .front-card{
+        height:300px;
+        width:500px;
+        border-radius: 20px;
+    }
+} */
